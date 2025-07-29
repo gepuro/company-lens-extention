@@ -1,0 +1,34 @@
+{
+  "dxt_version": "0.1",
+  "name": "company-lens-db",
+  "version": "1.0.1",
+  "description": "company-lens.comで運用している企業データベースからPostgreSQLでデータを取得するエクステンションです",
+  "author": {
+    "name": "Atsushi Hayakawa",
+    "email": "gepuro@gmail.com",
+    "url": "https://gepuro.net/"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"]
+    }
+  },
+  "tools": [
+    {
+      "name": "execute_query",
+      "description": "企業データベースからPostgreSQLでデータを取得"
+    }
+  ],
+  "keywords": [
+    "企業データベース",
+    "企業データ",
+    "company-lens",
+    "企業研究",
+    "就活",
+    "営業"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "company-lens-db-dxt",
+  "version": "1.0.1",
+  "type": "module",
+  "private": true,
+  "main": "server/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}
